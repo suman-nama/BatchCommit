@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CksVS+9yXEw5N5xhMkMQk1K4ohaTa5jTFgXP3/A1i7WtvQP+zjvVWKdxgK1szGgGw0HX9AbJJ5IHgpciTN0NYw==",
+  "success": true,
+  "projectFilePath": "D:\\dotnet_Practice\\BatchCommit\\BatchCommit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\suman\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\suman\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\suman\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
