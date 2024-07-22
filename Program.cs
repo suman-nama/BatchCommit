@@ -13,7 +13,9 @@ class Program
         // Example data to be inserted
         List<User> users = GetUsers();
 
+        Console.WriteLine(DateTime.Now.ToString());
         BatchInsertUsers(connectionString, users, batchSize);
+        Console.WriteLine(DateTime.Now.ToString());
     }
 
     static List<User> GetUsers()
@@ -21,7 +23,7 @@ class Program
         // This method should return a list of users to be inserted.
         // For example, let's create some dummy data:
         List<User> users = new List<User>();
-        for (int i = 1; i <= 1000; i++)
+        for (int i = 1; i <= 10000000; i++)
         {
             users.Add(new User { Id = i, Name = $"User{i}" });
         }
@@ -52,7 +54,7 @@ class Program
                         }
 
                         transaction.Commit();
-                        Console.WriteLine($"Batch {i / batchSize + 1} committed successfully.");
+                       // Console.WriteLine($"Batch {i / batchSize + 1} committed successfully.");
                     }
                     catch (Exception ex)
                     {
